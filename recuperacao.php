@@ -78,7 +78,7 @@
 
         $nova_media = ($media + $nota_recuperacao);
 
-        if ($nova_media >= 6) {
+        if ($nova_media >= 10) {
             $mensagem = 'Aprovado, fez nada menos que o seu trabalho';
         } else {
             $mensagem = 'Reprovado, alem de burro é imbecil';
