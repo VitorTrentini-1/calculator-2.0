@@ -12,43 +12,46 @@
             box-sizing: border-box;
         }
 
-        
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #00bcd4, #b3e5fc); 
+            background: linear-gradient(to right, #8E44AD, #51D1D6); 
             color: #333;
             line-height: 1.6;
             padding: 20px;
+            min-height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-       
+        
         .container {
             max-width: 600px;
             margin: 0 auto;
             background: #fff;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(to right, #C39BD3, #E8DAEF); 
         }
 
-        
         h2 {
-            color: #333;
+            color: #4A235A;
             margin-bottom: 20px;
             text-align: center;
         }
 
-       
+        
         .alert {
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
-            background-color: #51D1D6;
-            border-left: 5px solid #2196F3;
-            color: #333;
+            background-color: #D7BDE2; 
+            border-left: 5px solid #2196F3; 
+            color: #4A235A; 
         }
 
-        
+       
         a.btn {
             display: block;
             width: 100%;
@@ -56,7 +59,7 @@
             font-size: 16px;
             font-weight: bold;
             color: #fff;
-            background-color: black;
+            background-color: #8E44AD;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
@@ -65,7 +68,10 @@
             margin-top: 10px;
         }
 
-       
+        
+        a.btn:hover {
+            background-color: #732D91; 
+        }
     </style>
 </head>
 <body>
@@ -79,9 +85,9 @@
         $nova_media = ($media + $nota_recuperacao);
 
         if ($nova_media >= 10) {
-            $mensagem = 'Aprovado, fez nada menos que o seu trabalho';
+            $mensagem = 'Aprovado';
         } else {
-            $mensagem = 'Reprovado, alem de burro é imbecil';
+            $mensagem = 'Reprovado, tente novamente ano que vem.';
         }
         ?>
 

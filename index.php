@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Notas</title>
     <style>
-        
         body, h2, label, input, button {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        
         body {
             font-family: Arial, sans-serif;
-            background-image: linear-gradient(to right, #00ff7a, #00fbb1, #00f4db, #00ebf6, #00dfff);            color: #333;
+            background: linear-gradient(to right, #8E44AD, #D7BDE2);
+            color: #333;
             line-height: 1.6;
             padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .container {
@@ -26,19 +29,17 @@
             background: #fff;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-image: linear-gradient(to right top, #1af080, #00eaab, #00e2cb, #00d8df, #20cce5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            background: linear-gradient(to right top, #C39BD3, #E8DAEF);
         }
 
-       
         h2 {
-            color: black;
+            color: #4A235A;
             margin-bottom: 20px;
             font-size: 24px;
             text-align: center;
         }
 
-        
         .form-group {
             margin-bottom: 15px;
         }
@@ -47,6 +48,7 @@
             display: block;
             font-weight: bold;
             margin-bottom: 5px;
+            color: #4A235A;
         }
 
         .form-group input {
@@ -60,10 +62,9 @@
         }
 
         .form-group input:focus {
-            border-color: #4CAF50;
+            border-color: #8E44AD;
         }
 
-       
         button {
             display: block;
             width: 100%;
@@ -71,7 +72,7 @@
             font-size: 16px;
             font-weight: bold;
             color: #fff;
-            background-color: #00FFE8;
+            background-color: #8E44AD;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -79,7 +80,7 @@
         }
 
         button:hover {
-            background-color: #3F8E87;
+            background-color: #4A235A;
         }
     </style>
 </head>
